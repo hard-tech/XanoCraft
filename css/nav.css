@@ -1,0 +1,61 @@
+.logo {
+  float: left;
+  line-height: 50px;
+  font-size: 2em;
+}
+.logo:hover{
+  line-height: 50px;
+  font-size: 2em;
+  text-shadow:  0 0 10px rgb(231, 231, 231);
+}
+
+nav {
+  font-family: 'KanitB', sans-serif;
+}
+nav:hover{text-shadow:  0 0 5px rgb(231, 231, 231);}
+
+ul:not(.nostyle) {
+  text-align: center;
+  height: 50px;
+}
+
+li:not(.nostyle) {
+  display: inline-block;
+  color: white;
+}
+li:not(:first-child):not(.nostyle) {
+  padding: 0 2%;
+}
+li:hover:not(.nostyle) a:not(.nostyle){
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a:not(.nostyle){
+  text-decoration: none;
+  line-height: 50px;
+  /* text-transform: uppercase; */
+  padding: 5px 15px;
+}
+
+li:not(:first-child):not(.nostyle) a:hover {
+  border: 2px solid rgb(22, 189, 0);
+  background: rgba(102, 255, 0, 0.4);
+  box-shadow: 0 0 5px 1px #00ce1b;
+  transition-duration: 0.1s;
+  border-bottom: 10px solid #00ce1b;
+}
+
+.logo-nav{
+  width: 100px;
+}
+
+.navbar-js{
+  z-index: 1000;
+}
+
+.bd-subnavbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
