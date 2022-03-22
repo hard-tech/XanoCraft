@@ -42,7 +42,7 @@ li:not(:first-child):not(.nostyle) a:hover {
   border: 2px solid rgb(19, 163, 0);
   background: rgba(102, 255, 0, 0.4);
   box-shadow: 0 0 5px 1px #009b15;
-  transition-duration: 0.1s;
+  transition-duration: 0.3s;
   border-bottom: 10px solid #008612
   ;
 }
