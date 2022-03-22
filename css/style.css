@@ -20,13 +20,13 @@ body{
 
 a{color: white;}
 .nr{ color: rgb(255, 0, 0); text-shadow: 0 0 2px rgb(255, 0, 0); }
-.nv{ color: rgb(0, 230, 0); text-shadow: 0 0 5px rgb(19, 233, 0);}
-.nvf{ color: rgb(0, 170, 0); text-shadow: 0 0 2px rgb(19, 226, 0);}
-.nb{ color: rgb(0, 81, 255); text-shadow: 0 0 5px rgb(0, 82, 235) ;}
-.nbc{ color: rgb(0, 195, 255); text-shadow: 0 0 5px rgb(0, 195, 255) ;}
+.nv{ color: rgb(0, 206, 0); text-shadow: 0 0 5px rgb(19, 233, 0);}
+.nvf{ color: rgb(0, 155, 0); text-shadow: 0 0 2px rgb(19, 226, 0);}
+.nb{ color: rgb(0, 76, 240); text-shadow: 0 0 5px rgb(0, 82, 235) ;}
+.nbc{ color: rgb(0, 185, 241); text-shadow: 0 0 5px rgb(0, 195, 255) ;}
 .nvio{ color: rgb(119, 0, 255); text-shadow: 0 0 5px rgb(119, 0, 255);}
-.nj{ color: yellow; text-shadow: 0 0 5px yellow, 0 0 10px yellow; }
-.ng{ color: rgb(255, 183, 0); text-shadow: 0 0 5px rgb(255, 183, 0);}
+.nj{ color: rgb(218, 218, 0); text-shadow: 0 0 5px yellow, 0 0 10px yellow; }
+.ng{ color: rgb(228, 163, 0); text-shadow: 0 0 5px rgb(255, 183, 0);}
 .nbl{text-shadow:  0 0 5px rgb(231, 231, 231);}
 .cn{color: black;}  
 
