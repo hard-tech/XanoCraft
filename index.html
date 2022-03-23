@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta property="og:locale" content="en_US" />
 
@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="./css/style.css" /> 
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/band-color.css">
+    <link rel="stylesheet" href="./css/media.css">
     <script src="https://kit.fontawesome.com/3d88115991.js" crossorigin="anonymous"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/nav.js"></script>
@@ -49,12 +50,14 @@
     <!-- The Navigation Bar -->
 <div class="navbar-js bd-subnavbar">
     <nav>
-        <ul class="nav">
-          <li class="logo"><a href="#">XanoCraft <img src="./image/icon/XanoCraft-logo-min.png" width="35px" style="margin-top: -8px;" alt="□"><span class="mini"></span></a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="https://minecraftservers.org/vote/627642" target="_blank">Vote</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <ul class="nav">
+            <li class="logo"><a href="#">XanoCraft <img src="./image/icon/XanoCraft-logo-min.png" width="35px" style="margin-top: -8px;" alt="□"><span class="mini"></span></a></li>
+          <div class="page px-2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="https://minecraftservers.org/vote/627642" target="_blank">Vote</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
         </ul>
     </nav>
 </div>
@@ -68,8 +71,8 @@
         <br><br><br><br><br><br><br><br><br>
         <div class="box">
             <div class="Bande-blanc presentation intro">
-                <p class="px-4">
-                    <br><img src="./image/img/mc-player3.png" alt=""><br>
+                <p>
+                    <br><img src="./image/img/mc-player3.png" class="player-icon" alt=""><br>
                     <div class="Pub">
                         <h2>XanoCraft :</h2>
                         <ul class="nostyle">
@@ -92,7 +95,7 @@
                           </ul>
                       </ul>
                     </div>
-                    <img src="./image/icon/8-2-minecraft-creeper-png.png" width="400px" class="py-4" alt="">
+                    <img src="./image/icon/8-2-minecraft-creeper-png.png" class="py-4 creeper-icon" alt="">
                 </p>
             </div>
             <div class="Bande-noir" id="shop">
@@ -172,7 +175,7 @@
                   
                 </div>
                 <br><br>
-                <iframe class="center" src="https://discord.com/widget?id=810609223893385288&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe class="center discord" src="https://discord.com/widget?id=810609223893385288&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 <br>
                 <div class="Box-invite" id="contact">
                   <a class="nostyle" href="https://discord.gg/MUNYeQWrvz" target="_blank">
@@ -185,13 +188,13 @@
               </center>
               <br>
               <div class="container">
-                <div class="btn fb-btn">
+                <div class="btn m-3 fb-btn">
                     <i class="fa fa-facebook" aria-hidden="true" id="fb"></i>
                 </div>
-                <div class="btn ig-btn">
+                <div class="btn m-3 ig-btn">
                     <a href="https://www.youtube.com/channel/UCp5Fkc0JAJsX_WsR70UumqQ/videos" target="_blank"><i class="fa fa-youtube" aria-hidden="true" id="ig"></i></a>
                 </div>
-                <div class="btn tw-btn">
+                <div class="btn m-3 tw-btn">
                     <a href="https://www.instagram.com/xanocraft/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" id="tw"></i></a>
                 </div>
             </div>

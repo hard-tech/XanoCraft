@@ -35,12 +35,6 @@ a{text-decoration: none;}
 .center{margin-left: auto; margin-right: auto; display: block;}
 
 
-
-/* ### imge ### */
-
-.ico-page{width: 40%;}
-
-
         /* ### code Box-invite ### */
         .Box-invite{
           background-color: #7289da;
@@ -77,14 +71,6 @@ a{text-decoration: none;}
       border-bottom: 2px solid;
       }
 
-      @media(min-width:380px){
-      .Box-invite{width: 320px;padding: 10px 15px;}
-      }
-      @media(max-width:380px){
-      .Box-invite{padding: 10px 10px;}
-      }
-
-
       .txt{
         margin: 2px auto;
         font-size: large;
@@ -93,7 +79,6 @@ a{text-decoration: none;}
 /* ### Box Shop ### */
   
   .container{
-    width: 1000px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -107,9 +92,8 @@ a{text-decoration: none;}
 
 
   .container .card .face{
-    width:300px;
-    height: 200px;
     transition:.4s;
+    min-width: 230px;
   }
 
   /* .face1{border-top-left-radius: 15px;border-top-right-radius: 15px;} */
@@ -218,31 +202,6 @@ a{text-decoration: none;}
   }
 
   /* ### intro ### */
-  @media (min-width:1300px) {
-    .intro{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  }
-
-  @media (max-width:1300px) {
-    .intro {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .container {
-      justify-content: center; 
-    }
-    .card{
-
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  }
 
   /* .presentation{
       background-image: url(../image/img/mc-player3.png);
@@ -271,3 +230,5 @@ a{text-decoration: none;}
   }
 
   .ul-flex{display: flex;}
+  .player-icon{margin-bottom: 20px;}
+  .creeper-icon{margin: 20px;}
