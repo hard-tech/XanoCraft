@@ -230,3 +230,30 @@ a{text-decoration: none;}
   .ul-flex{display: flex;}
   .player-icon{margin-bottom: 20px;}
   .creeper-icon{margin: 20px;}
+
+
+  .craft-ico{
+    width: 50px;
+  }
+  .craft-tab{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .craft{
+    padding: 50px;
+    border-radius: 15px;
+    background-image: url(../image/icon/Crafting_Table_25749.png);
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
